@@ -1,0 +1,239 @@
+
+body{
+    background-color: rgb(36, 35, 35);
+}
+#navbar-section{
+    margin: 40px 90px;
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #FD6F00;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    color: white;
+}
+.cv-download{
+    background-color: #FD6F00;
+    padding: 4px;
+}
+.bio{
+    display: flex;
+    justify-content: space-between;
+}
+.info-bio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.info-bio h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.info-text{
+    color: darkgrey;
+    font-size: 20px;
+}
+.skill{
+    display: flex;
+    font-size: 30px;
+    margin: 20px 0px;
+    gap: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.hireme{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+    background-color: #727272bb;
+    border-radius: 35px;
+    border: 1px solid white;
+    width: 240px;
+    height: 70px;
+    padding: 3px 5px;
+    align-items: center;
+}
+.Portfolio-p{
+    background-color: #FD6F00;
+    border-radius: 8px;
+    padding: 2px 3px;
+    align-items: center;
+}
+.check-icon{
+    padding-top: 2px;
+    align-items: center;
+    width: 26px;
+    height: 25px;
+}
+.social-media{
+    display: flex;
+    margin-top: 30px;
+    gap: 25px;
+}
+.myself-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px;
+}
+.about-me{
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.experience-demo{
+    color: white;
+    display: grid;
+    text-align: end;
+}
+.experience-demo h2,p{
+    margin: 0px 0px;
+}
+.experience{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(76, 60, 92);
+    /* margin: 30px 10px; */
+    padding: 10px 30px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.my-experience{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.job-experience-1{
+    border-bottom: 1px solid white;
+}
+.job-time{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.job-time p{
+    margin: 22px 0px;
+}
+
+.awards{
+    color: white;
+    margin-top: 70px;
+}
+.awards-heading h1{
+    position: relative;
+    top: 45%;
+    left: 45%;
+}
+.awards-heading p{
+    position: relative;
+    top: 25%;
+    left: 25%;
+    color: gray;
+}
+.award-1{
+    background-color: black;
+    margin: 35px 40px;
+    padding: 15px 20px;
+    color: gray;
+}
+.award-1-heading{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.my-portfolio-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px 20px;
+    margin-top: 50px;
+}
+.my-portfolio-heading h1{
+    font-size: 30px;
+}
+.my-portfolio-heading p{
+    color: gray;
+}
+.ux-items{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 150px;
+    color: white;
+}
+.ux-items h1{
+    font-size: 30px;
+}
+.ux-items p{
+    color: gray;
+}
+.contact-me{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 90px;
+}
+.any-projects{
+    background-color:#FD6F001A;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    padding: 40px;
+}
+.data-1{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    width: 250px;
+    border-bottom: 1px solid white;
+}
+.message{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.button{
+    margin-top: 40px;
+    color:#ffffff;
+    background-color: #FD6F00;
+    width: fit-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+.footer-div .logo{
+    font-size: 40px;
+}
+.ending{
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
